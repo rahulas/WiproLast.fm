@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/colorPrimaryDark"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    app:contentPaddingBottom="10dp"
+    app:contentPaddingLeft="@dimen/default_gap"
+    app:contentPaddingRight="10dp"
+    app:contentPaddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_cv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/md_white_1000"
+            app:cardCornerRadius="6dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_menu_album" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/img_cv"
+            android:text="name"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/artist_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_tv"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/img_cv"
+            android:text="name"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/know_more_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/know_more_label"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

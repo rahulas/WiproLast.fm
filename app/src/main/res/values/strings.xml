@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">Wipro Last.fm Task</string>
+    <string name="app_name">Last.fm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_albums">Search albums</string>
+    <string name="search_hint">Search albums</string>
+
+
+    <string name="searching_albums">Searching albums…</string>
+    <string name="searching_artists">Searching artists…</string>
+    <string name="searching_tracks">Searching tracks…</string>
+    <string name="know_more_label">Know more…</string>
+    <string name="album_name_label">Album name</string>
+    <string name="artist_name_label">Artist name</string>
+    <string name="streamable_label">Streamable</string>
+    <string name="mbid_label">mbid</string>
+    <string name="listeners_label">Listeners</string>
+    <string name="track_name_label">Track name</string>
+    <string name="sorry">Sorry!</string>
+    <string name="error_msg_tv">It\'s not you. It\'s us. We are looking into this issue. Please bear with us.</string>
+    <string name="please_try_again">Please try again</string>
+
+
 </resources>
